@@ -1,0 +1,10 @@
+{
+  "name": "time manager",
+  "description": "a time manager extension for chrome browser",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "timeManager.html"
+  }
+}
